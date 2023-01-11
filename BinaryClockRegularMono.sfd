@@ -1,0 +1,65 @@
+SplineFontDB: 3.2
+FontName: BinaryClockRegularMono
+FullName: BinaryClockRegularMono
+FamilyName: BinaryClock
+Weight: Regular
+Copyright: Copyright (c) 2023 James South
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -102
+UnderlineWidth: 51
+Ascent: 1024
+Descent: 0
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 221 -515445932 6345172]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1673409103
+ModificationTime: 1673414940
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 26 10
+BeginPrivate: 0
+EndPrivate
+BeginChars: 256 1
+
+StartChar: one
+Encoding: 49 49 0
+Width: 512
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+156 100 m 4
+ 156 155 201 200 256 200 c 4
+ 311 200 356 155 356 100 c 4
+ 356 45 311 0 256 0 c 4
+ 201 0 156 45 156 100 c 4
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont
