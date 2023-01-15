@@ -1,6 +1,7 @@
 <h1 align="center">polybar-binary-clock-fonts</h1>
 
-<h1>&nbsp;</h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Binary clock fonts for your
 
@@ -15,17 +16,18 @@ Binary clock fonts for your
 	<img src="https://img.shields.io/badge/awesome-%C6%94%F0%9D%9A%BA%C5%9E-brightgreen.svg">
 </p>
 
-<h1>&nbsp;</h1>
+<p>&nbsp;</p>
 
 ## Description
 This repo is a collection of fonts that represent numbers in base 2 as columns of dots like on a [binary clock](https://en.wikipedia.org/wiki/Binary_clock). The only glyphs are 0-9. Other characters will display in the first font that contains them. Use [time-alt/date-alt settings](https://github.com/polybar/polybar/wiki/Module:-date#basic-settings) to switch to your normal format. Use [format tags](https://github.com/polybar/polybar/wiki/Formatting#format-tags) to show time in a different color from the date.
 
-### Installation
+## Installation
 Save the `.ttf` files to `/usr/share/fonts/someFolder`, load into polybar, and use like any other font.
 
-### Appearance
-
+## Appearance
+On my 20px polybar with font size 15, vertical offset 4:
 |Font Table|Running Clock|
 |:-:|:-:|
 |<picture><source media="(prefers-color-scheme: dark)" srcset="montagedark.jpg"><img alt="table of fonts" src="montagelight.jpg"></picture>|<img alt="binary clock" src="vid.gif">|
 
+<p>&nbsp;</p>
