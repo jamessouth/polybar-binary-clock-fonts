@@ -1,18 +1,22 @@
 <h1 align="center">polybar-binary-clock-fonts</h1>
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 
 Binary clock fonts for your
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/polybar/polybar/master/doc/_static/banner-dark-mode.png">
-  <img alt="polybar logo" src="https://raw.githubusercontent.com/polybar/polybar/master/doc/_static/banner.png">
-</picture>
+<div align="center">
+	<picture>
+ 	 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/polybar/polybar/master/doc/_static/banner-dark-mode.png">
+ 	 <img alt="polybar logo" src="https://raw.githubusercontent.com/polybar/polybar/master/doc/_static/banner.png">
+	</picture>
+</div>
+
+<p>&nbsp;</p>
 
 <p align="center">
 	<a href="https://github.com/jamessouth/polybar-binary-clock-fonts/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jamessouth/polybar-binary-clock-fonts"></a>
 	<a href="https://archlinux.org/"><img src="https://img.shields.io/badge/Linux-d.svg?logoWidth=40&labelColor=d35e49&color=E3C567&logoColor=000000&logo=Linux"></a>
+	<a href="https://fontforge.org/en-US/"><img src="https://img.shields.io/badge/made%20with-FontForge-%23529EE0.svg"></a>
 	<img src="https://img.shields.io/badge/awesome-%C6%94%F0%9D%9A%BA%C5%9E-brightgreen.svg">
 </p>
 
