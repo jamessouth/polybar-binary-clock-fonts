@@ -1,6 +1,6 @@
 SplineFontDB: 3.2
 FontName: BinaryClockBoldMono
-FullName: BinaryClockBoldMono
+FullName: Binary Clock Bold Mono
 FamilyName: BinaryClock
 Weight: Bold
 Copyright: Copyright (c) 2023 James South
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1673409103
-ModificationTime: 1673913657
+ModificationTime: 1673929137
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -35,6 +35,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -53,9 +54,7 @@ BeginChars: 256 10
 StartChar: one
 Encoding: 49 49 0
 Width: 512
-Flags: W
-HStem: 0 256<184.299 327.701>
-VStem: 128 256<56.2988 199.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -75,9 +74,7 @@ EndChar
 StartChar: two
 Encoding: 50 50 1
 Width: 512
-Flags: W
-HStem: 256 256<184.299 327.701>
-VStem: 128 256<312.299 455.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -97,9 +94,7 @@ EndChar
 StartChar: seven
 Encoding: 55 55 2
 Width: 512
-Flags: W
-HStem: 0 256<184.299 327.701> 512 256<184.982 327.701>
-VStem: 128 256<56.2988 199.701 312.299 455.701 568.299 711.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -137,9 +132,7 @@ EndChar
 StartChar: three
 Encoding: 51 51 3
 Width: 512
-Flags: W
-HStem: 0 21G<220.5 291.5> 256 256<184.982 327.701>
-VStem: 128 256<56.2988 199.701 312.299 455.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -168,9 +161,7 @@ EndChar
 StartChar: four
 Encoding: 52 52 4
 Width: 512
-Flags: W
-HStem: 512 256<184.299 327.701>
-VStem: 128 256<568.299 711.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -190,9 +181,7 @@ EndChar
 StartChar: five
 Encoding: 53 53 5
 Width: 512
-Flags: W
-HStem: 0 256<184.299 327.701> 512 256<184.299 327.701>
-VStem: 128 256<56.2988 199.701 568.299 711.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -221,9 +210,7 @@ EndChar
 StartChar: six
 Encoding: 54 54 6
 Width: 512
-Flags: W
-HStem: 512 256<184.982 327.701>
-VStem: 128 256<312.299 455.701 568.299 711.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -252,7 +239,7 @@ EndChar
 StartChar: zero
 Encoding: 48 48 7
 Width: 512
-Flags: W
+Flags: MW
 LayerCount: 2
 Fore
 Validated: 1
@@ -261,9 +248,7 @@ EndChar
 StartChar: eight
 Encoding: 56 56 8
 Width: 512
-Flags: W
-HStem: 768 256<184.299 327.701>
-VStem: 128 256<824.299 967.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -283,9 +268,7 @@ EndChar
 StartChar: nine
 Encoding: 57 57 9
 Width: 512
-Flags: W
-HStem: 0 256<184.299 327.701> 768 256<184.299 327.701>
-VStem: 128 256<56.2988 199.701 824.299 967.701>
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
