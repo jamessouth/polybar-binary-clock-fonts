@@ -23,15 +23,34 @@ Binary clock fonts for your
 <p>&nbsp;</p>
 
 ## Description
-This repo is a collection of fonts that represent numbers in base 2 as columns of dots like on a [binary clock](https://en.wikipedia.org/wiki/Binary_clock). The only glyphs are 0-9. Other characters will display in the first font that contains them. Use [time-alt/date-alt settings](https://github.com/polybar/polybar/wiki/Module:-date#basic-settings) to switch to your normal format. Use [format tags](https://github.com/polybar/polybar/wiki/Formatting#format-tags) to show time in a different color from the date.
+This repo is a collection of fonts that represent numbers in base 2 as columns of dots like on a [binary clock](https://en.wikipedia.org/wiki/Binary_clock). The only glyphs are 0-9. Other characters will display in the first font that contains them.
 
-## Installation
-Save the `.ttf` files to `/usr/share/fonts/someFolder`, load into polybar, and use like any other font.
+<p>&nbsp;</p>
 
 ## Appearance
 On my 20px polybar with font size 15, vertical offset 4:
 |Font Table|Running Clock|
 |:-:|:-:|
 |<picture><source media="(prefers-color-scheme: dark)" srcset="montagedark.jpg"><img alt="table of fonts" src="montagelight.jpg"></picture>|<img alt="binary clock" src="vid.gif">|
+
+<p>&nbsp;</p>
+
+## Installation
+To install a particular font:
+```bash
+sudo mkdir -pv /usr/share/fonts/BinaryClock && cd /usr/share/fonts/BinaryClock && sudo curl -JOL https://github.com/jamessouth/polybar-binary-clock-fonts/blob/master/BinaryClockLigatureMono.ttf?raw=true && sudo fc-cache -fv && fc-list | grep BinaryClock | cut -d ':' -f2-
+```
+This will create a directory for the Binary Clock font family in `/usr/share/fonts/`, change to it, download the font file, update your font cache, and output the name and style. Replace the filename as needed.
+
+To install all of them:
+```bash
+curl -JOL https://github.com/jamessouth/polybar-binary-clock-fonts/blob/master/fonts.zip?raw=true && sudo mkdir -pv /usr/share/fonts/BinaryClock && sudo unzip fonts.zip -d /usr/share/fonts/BinaryClock && sudo fc-cache -fv && fc-list | grep BinaryClock | cut -d ':' -f2-
+```
+This will download the zip file with all 10 font files and the LICENSE, create the Binary Clock directory, unzip the files into it, update your font cache, and output the names and styles.
+
+<p>&nbsp;</p>
+
+## Usage
+Take the output of the installation command and put it in your polybar config with your other fonts: `font-3 = BinaryClock:style=BoldMono:size=15;4`. In your date module, use [time-alt/date-alt settings](https://github.com/polybar/polybar/wiki/Module:-date#basic-settings) to switch to your normal format. Use [format tags](https://github.com/polybar/polybar/wiki/Formatting#format-tags) to show time in a different color from the date.
 
 <p>&nbsp;</p>
