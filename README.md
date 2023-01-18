@@ -38,13 +38,13 @@ On my 20px polybar with font size 15, vertical offset 4:
 ## Installation
 To install a particular font:
 ```bash
-sudo mkdir -pv /usr/share/fonts/BinaryClock && cd /usr/share/fonts/BinaryClock && sudo curl -JOL https://github.com/jamessouth/polybar-binary-clock-fonts/blob/master/BinaryClockLigatureMono.ttf?raw=true && sudo fc-cache -fv && fc-list | grep BinaryClock | cut -d ':' -f2-
+sudo mkdir -pv /usr/share/fonts/BinaryClock && cd /usr/share/fonts/BinaryClock && sudo curl -JOL https://github.com/jamessouth/polybar-binary-clock-fonts/blob/master/BinaryClockLigatureMono.ttf?raw=true && sudo fc-cache -fv && fc-list | awk '/BinaryClock/ {print $2}'
 ```
 This will create a directory for the Binary Clock font family in `/usr/share/fonts/`, change to it, download the font file, update your font cache, and output the name and style. Replace the filename as needed.
 
 To install all of them:
 ```bash
-curl -JOL https://github.com/jamessouth/polybar-binary-clock-fonts/blob/master/fonts.zip?raw=true && sudo mkdir -pv /usr/share/fonts/BinaryClock && sudo unzip fonts.zip -d /usr/share/fonts/BinaryClock && sudo fc-cache -fv && fc-list | grep BinaryClock | cut -d ':' -f2-
+curl -JOL https://github.com/jamessouth/polybar-binary-clock-fonts/blob/master/fonts.zip?raw=true && sudo mkdir -pv /usr/share/fonts/BinaryClock && sudo unzip fonts.zip -d /usr/share/fonts/BinaryClock && sudo fc-cache -fv && fc-list | awk '/BinaryClock/ {print $2}'
 ```
 This will download the zip file with all 10 font files and the LICENSE, create the Binary Clock directory, unzip the files into it, update your font cache, and output the names and styles.
 
