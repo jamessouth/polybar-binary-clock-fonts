@@ -54,3 +54,10 @@ This will download the zip file with all 10 font files and the LICENSE, create t
 Take the output of the installation command and put it in your polybar config with your other fonts: `font-3 = BinaryClock:style=BoldMono:size=15;4`. In your date module, use [time-alt/date-alt settings](https://github.com/polybar/polybar/wiki/Module:-date#basic-settings) to switch to your normal format. Use [format tags](https://github.com/polybar/polybar/wiki/Formatting#format-tags) to show time in a different color from the date.
 
 <p>&nbsp;</p>
+
+## My other polybar modules
+Please check out:
+  * [polybar-time-bar](https://github.com/jamessouth/polybar-time-bar)
+  * [polybar-nightlight](https://github.com/jamessouth/polybar-nightlight)
+
+<p>&nbsp;</p>
